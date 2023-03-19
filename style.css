@@ -1,0 +1,88 @@
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+
+ /* .homepage{
+    visibility: hidden;
+ } */
+
+.title_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    background-image: linear-gradient(60deg,#0f172a,#0f172a,#0f172a,#0f172a,#075985,#475569);
+    color: #e2e8f0;
+    font-family: sans-serif;
+    
+}
+
+.map_container{
+    position: relative;
+}
+
+ form{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1.5%;
+    height: 10%;
+    width: 100%;
+    z-index: 1;
+    
+ }
+
+ #searchBar{
+    height: 100%;
+    width: 35%;
+    font-size: 1rem;
+    appearance: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+ }
+
+
+ #searchBar:focus{
+    box-shadow: 0 0 10px aqua;
+    outline: 1px solid whitesmoke;
+    border: 1px solid blue;
+ }
+
+ .searchBtn{
+    position: absolute;
+    right: 33.5%;
+    
+ }
+
+ #map {
+    height: 80%;
+  }
+  
+  /* 
+   * Optional: Makes the sample page fill the window. 
+   */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+  .info_screen{
+    top: 0;
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    position: absolute;
+    outline: 1px solid red;
+    background-color: white;
+    z-index: 2;
+    visibility: hidden;
+
+  }
+  
